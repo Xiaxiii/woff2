@@ -47,3 +47,19 @@ body {
 自定义字体名称填写 `GuzaoXiaotuji`，点击「添加」后选中该字体。
 
 原始字体文件：`guzao-xiaotuji.woff2`，未作转换。
+
+## 古早小兔叽打字机（WOFF 版）
+
+使用独立名称，方便与 WOFF2 版区分。上传的原始 WOFF 无需转换即可用于浏览器。
+
+```css
+@font-face {
+  font-family: "GuzaoXiaotujiWoff";
+  src: url("https://cdn.jsdelivr.net/gh/Xiaxiii/woff2@main/guzao-xiaotuji.woff") format("woff");
+}
+body {
+  font-family: "GuzaoXiaotujiWoff";
+}
+```
+
+自定义字体名称填写 `GuzaoXiaotujiWoff`，添加后选择这个新条目。
