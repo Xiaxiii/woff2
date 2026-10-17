@@ -29,3 +29,21 @@ body {
 ```text
 https://raw.githubusercontent.com/Xiaxiii/woff2/main/shuise-xindong.woff2
 ```
+
+## 古早小兔叽打字机
+
+在字体设置的输入框粘贴以下代码：
+
+```css
+@font-face {
+  font-family: "GuzaoXiaotuji";
+  src: url("https://cdn.jsdelivr.net/gh/Xiaxiii/woff2@main/guzao-xiaotuji.woff2") format("woff2");
+}
+body {
+  font-family: "GuzaoXiaotuji";
+}
+```
+
+自定义字体名称填写 `GuzaoXiaotuji`，点击「添加」后选中该字体。
+
+原始字体文件：`guzao-xiaotuji.woff2`，未作转换。
