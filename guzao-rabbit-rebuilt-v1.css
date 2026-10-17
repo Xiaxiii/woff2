@@ -1,0 +1,10 @@
+@font-face {
+  font-family: "GuzaoRabbitRebuilt";
+  src: url("https://cdn.jsdelivr.net/gh/Xiaxiii/woff2@main/guzao-rabbit-rebuilt-v1.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+body {
+  font-family: "GuzaoRabbitRebuilt", sans-serif;
+}

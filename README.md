@@ -30,36 +30,31 @@ body {
 https://raw.githubusercontent.com/Xiaxiii/woff2/main/shuise-xindong.woff2
 ```
 
-## 古早小兔叽打字机
+## 古早小兔叽打字机（重新编码版）
 
-在字体设置的输入框粘贴以下代码：
+旧 WOFF/WOFF2 文件及对应导入 CSS 已从当前分支删除。以下为此次上传文件解码、重新编码后的版本。
 
-```css
-@font-face {
-  font-family: "GuzaoXiaotuji";
-  src: url("https://cdn.jsdelivr.net/gh/Xiaxiii/woff2@main/guzao-xiaotuji.woff2") format("woff2");
-}
-body {
-  font-family: "GuzaoXiaotuji";
-}
-```
-
-自定义字体名称填写 `GuzaoXiaotuji`，点击「添加」后选中该字体。
-
-原始字体文件：`guzao-xiaotuji.woff2`，未作转换。
-
-## 古早小兔叽打字机（WOFF 版）
-
-使用独立名称，方便与 WOFF2 版区分。上传的原始 WOFF 无需转换即可用于浏览器。
+在「字体 → 添加新字体」中粘贴：
 
 ```css
 @font-face {
-  font-family: "GuzaoXiaotujiWoff";
-  src: url("https://cdn.jsdelivr.net/gh/Xiaxiii/woff2@main/guzao-xiaotuji.woff") format("woff");
+  font-family: "GuzaoRabbitRebuilt";
+  src: url("https://cdn.jsdelivr.net/gh/Xiaxiii/woff2@main/guzao-rabbit-rebuilt-v1.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
 }
 body {
-  font-family: "GuzaoXiaotujiWoff";
+  font-family: "GuzaoRabbitRebuilt", sans-serif;
 }
 ```
 
-自定义字体名称填写 `GuzaoXiaotujiWoff`，添加后选择这个新条目。
+自定义字体名称填写 `GuzaoRabbitRebuilt`。在酒馆内删除先前添加的 `GuzaoXiaotuji`、`GuzaoXiaotujiWoff` 条目，然后添加并选中这个新条目。
+
+此版本重新生成了字体内部名称，保留了字形、字符映射、字宽及原有版权和许可信息。浏览器加载已验证；具体酒馆插件和设备上的显示效果仍需实测。
+
+若需要 GitHub 原始文件地址：
+
+```text
+https://raw.githubusercontent.com/Xiaxiii/woff2/main/guzao-rabbit-rebuilt-v1.woff2
+```
