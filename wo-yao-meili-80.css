@@ -1,0 +1,10 @@
+@font-face {
+  font-family: "Woyaomeili80";
+  src: url("https://cdn.jsdelivr.net/gh/Xiaxiii/woff2@main/wo-yao-meili-80.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+body {
+  font-family: "Woyaomeili80", sans-serif;
+}

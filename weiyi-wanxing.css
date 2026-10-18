@@ -1,0 +1,10 @@
+@font-face {
+  font-family: "WeiyiWanxing";
+  src: url("https://cdn.jsdelivr.net/gh/Xiaxiii/woff2@main/weiyi-wanxing.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+body {
+  font-family: "WeiyiWanxing", sans-serif;
+}

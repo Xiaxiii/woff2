@@ -58,3 +58,41 @@ body {
 ```text
 https://raw.githubusercontent.com/Xiaxiii/woff2/main/guzao-rabbit-rebuilt-v1.woff2
 ```
+
+## 我发誓我要美丽80
+
+在字体设置的输入框粘贴以下代码：
+
+```css
+@font-face {
+  font-family: "Woyaomeili80";
+  src: url("https://cdn.jsdelivr.net/gh/Xiaxiii/woff2@main/wo-yao-meili-80.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+body {
+  font-family: "Woyaomeili80", sans-serif;
+}
+```
+
+自定义字体名称填写 `Woyaomeili80`，添加后选中该条目。上传的原始 WOFF2 已通过浏览器加载验证。
+
+## 以唯一晚星注解你
+
+在字体设置的输入框粘贴以下代码：
+
+```css
+@font-face {
+  font-family: "WeiyiWanxing";
+  src: url("https://cdn.jsdelivr.net/gh/Xiaxiii/woff2@main/weiyi-wanxing.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+body {
+  font-family: "WeiyiWanxing", sans-serif;
+}
+```
+
+自定义字体名称填写 `WeiyiWanxing`，添加后选中该条目。上传的原始 WOFF2 已通过浏览器加载验证。
